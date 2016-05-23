@@ -1,0 +1,19 @@
+{
+  "name": "sync-loader",
+  "version": "1.0.0",
+  "description": "document.write a chunk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkrutzer/sync-loader.git"
+  },
+  "author": "Hans Krutzer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hkrutzer/sync-loader/issues"
+  },
+  "homepage": "https://github.com/hkrutzer/sync-loader#readme"
+}
