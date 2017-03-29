@@ -8,7 +8,7 @@ module.exports = function() {};
 module.exports.pitch = function(request) {
   if(!this.webpack) throw new Error("Only usable with webpack");
   const callback = this.async();
-  const query = loaderUtils.parseQuery(this.query);
+  const query = loaderUtils.getOptions(this) || {};
   const filename = loaderUtils.interpolateName(this, query.name || "[hash].dw.js", {
     context: query.context || this.options.context,
     regExp: query.regExp
