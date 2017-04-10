@@ -1,6 +1,6 @@
 {
   "name": "sync-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "document.write a webpack chunk",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hkrutzer/sync-loader/issues"
   },
-  "homepage": "https://github.com/hkrutzer/sync-loader#readme"
+  "homepage": "https://github.com/hkrutzer/sync-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
 }
